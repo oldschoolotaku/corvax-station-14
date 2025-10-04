@@ -945,7 +945,7 @@
     color: "#9dc5c9"
   - type: GuideHelp
     guides:
-    - MedicalDoctor
+    - OffbrandMedical # Offbrand
 
 - type: entity
   parent: VendingMachineMedicalBase
@@ -2242,7 +2242,7 @@
   - type: GuideHelp
     guides:
     - Chemicals
-    - Chemist
+    - OffbrandChemist # Offbrandp
 
 - type: entity
   parent: VendingMachineChemicals
@@ -2289,7 +2289,7 @@
     color: "#43ccb5"
   - type: GuideHelp
     guides:
-    - Medical
+    - OffbrandMedical # Offbrand
 
 - type: entity
   parent: VendingMachineWallMedicalCivilian
