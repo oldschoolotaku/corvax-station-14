@@ -1,0 +1,44 @@
+# Владение данным предметом попадает под статью 131
+- type: contrabandSeverity
+  id: SyndiePropoganda
+  examineText: contraband-examine-text-syndicate-propoganda
+
+# Владение данным предметом попадает под статью 431
+- type: contrabandSeverity
+  id: ProfessionalEquipment
+  examineText: contraband-examine-text-equipment-abuse
+  showDepartmentsAndJobs: true
+
+# Владение данным предметом попадает под статью 432
+- type: contrabandSeverity
+  id: ProfessionalEquipmentDangerous
+  examineText: contraband-examine-text-equipment-abuse-dangerous
+  showDepartmentsAndJobs: true
+
+# Владение данным предметом попадает под статью 433
+- type: contrabandSeverity
+  id: DangerousEquipment
+  examineText: contraband-examine-text-dangerous-equipment
+  showDepartmentsAndJobs: true
+
+# Владение данным предметом попадает под статью 434
+- type: contrabandSeverity
+  id: LethalEquipment
+  examineText: contraband-examine-text-lethal-equipment
+  showDepartmentsAndJobs: true
+
+# Владение данным предметом попадает под статью 435
+- type: contrabandSeverity
+  id: UplinkEquipment
+  examineText: contraband-examine-text-Highly-Illegal
+
+# Владение данным предметом попадает под статью 436
+- type: contrabandSeverity
+  id: TerroristicEquipment
+  examineText: contraband-examine-text-terroristic-equipment
+
+# Только для предметов глав
+- type: contrabandSeverity
+  id: HiRiskEquipment
+  examineText: contraband-examine-text-terroristic-equipment
+  showDepartmentsAndJobs: true

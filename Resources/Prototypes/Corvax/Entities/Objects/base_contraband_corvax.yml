@@ -1,0 +1,64 @@
+# Владение данным предметом попадает под статью 131
+- type: entity
+  id: BaseSyndiePropaganda
+  abstract: true
+  components:
+  - type: Contraband
+    severity: SyndiePropoganda
+
+# Владение данным предметом попадает под статью 431
+- type: entity
+  id: BaseProfessionalEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: ProfessionalEquipment
+
+# Владение данным предметом попадает под статью 432
+- type: entity
+  id: BaseProfessionalEquipmentDangerous
+  abstract: true
+  components:
+  - type: Contraband
+    severity: ProfessionalEquipmentDangerous
+
+# Владение данным предметом попадает под статью 433
+- type: entity
+  id: BaseDangerousEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: DangerousEquipment
+
+# Владение данным предметом попадает под статью 434
+- type: entity
+  id: BaseLethalEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: LethalEquipment
+
+# Владение данным предметом попадает под статью 435
+- type: entity
+  id: BaseUplinkEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: UplinkEquipment
+
+# Владение данным предметом попадает под статью 436
+- type: entity
+  id: BaseTerroristicEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: TerroristicEquipment
+
+# Только для предметов глав
+- type: entity
+  id: BaseHiRiskEquipment
+  abstract: true
+  components:
+  - type: Contraband
+    severity: HiRiskEquipment
+    allowedDepartments: [ Command ]
